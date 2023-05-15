@@ -11,7 +11,7 @@ import SwiftUI
 struct PropertyMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PropertyListView()
         }
     }
 }
