@@ -13,11 +13,6 @@ class PropertyRepositoryMock: PropertyRepositoryInterface {
     var bundel: Bundle = Bundle(for: PropertyListViewModelTests.self)
     
     func getPropertyList() async -> [PropertyMap.PropertyItemDataModel] {
-        return []
-    }
-    
-    
-    func mockGetPropertyList() async -> [PropertyMap.PropertyItemDataModel] {
         
         if let path = bundel.path(forResource: "PropertyList", ofType: "json") {
             do {
@@ -61,7 +56,7 @@ final class PropertyListViewModelTests: XCTestCase {
 
     func testExample() async throws {
         
-        let propertyList = await propertyListViewModel.propertyRepository.mockGetPropertyList()
+        let propertyList = await propertyListViewModel.propertyRepository.getPropertyList()
         
         let propertyItemType = propertyList[0].propertyItemType
         let itemArea = propertyList[0].itemArea

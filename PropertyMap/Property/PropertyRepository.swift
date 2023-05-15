@@ -9,8 +9,6 @@ import Foundation
 
 protocol PropertyRepositoryInterface {
     func getPropertyList() async -> [PropertyItemDataModel]
-    func mockGetPropertyList() async -> [PropertyMap.PropertyItemDataModel]
-    
     func getPropertyDetails() async -> PropertyItemDataModel?
 }
 
@@ -35,10 +33,6 @@ class PropertyRepository: PropertyRepositoryInterface {
             print("Invalid data")
         }
         
-        return []
-    }
-    
-    func mockGetPropertyList() async -> [PropertyItemDataModel] {
         return []
     }
     
