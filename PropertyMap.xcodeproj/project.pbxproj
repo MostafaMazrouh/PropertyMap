@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A4AAC62A123A08006FD62C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49BA2A542A0E755500377E04 /* PropertyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BA2A572A0E755500377E04 /* PropertyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyMapApp.swift; sourceTree = "<group>"; };
 		49BA2A592A0E755500377E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		49BA2A4B2A0E755500377E04 = {
 			isa = PBXGroup;
 			children = (
+				49A4AAC62A123A08006FD62C /* README.md */,
 				49BA2A562A0E755500377E04 /* PropertyMap */,
 				49BA2A672A0E755700377E04 /* PropertyMapTests */,
 				49BA2A712A0E755700377E04 /* PropertyMapUITests */,
